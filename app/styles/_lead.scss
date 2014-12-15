@@ -1,0 +1,28 @@
+.lead {
+  text-align: center;
+}
+.blog-title {
+  position: absolute;
+  top: 620px;
+  left: 200px;
+  font-family: "good_footregular", Helvetica, Arial, sans-serif;
+  color: $white;
+  font-size: 13em;
+  line-height: 0.8em;
+  -webkit-transform: rotate(-10deg);
+}
+.limbs {
+  padding: 0;
+  margin-top: 20px;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+}
+h2 {
+  position: absolute;
+  top: 1120px;
+  left: 270px;
+  font-size: 1.2em;
+}

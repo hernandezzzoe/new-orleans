@@ -1,0 +1,13 @@
+// main.scss
+
+@import "variables";
+@import "mixins";
+@import "globals";
+
+//modules
+@import "article-block";
+@import "footer";
+@import "lead";
+@import "nav";
+@import "running";
+@import "voices";
