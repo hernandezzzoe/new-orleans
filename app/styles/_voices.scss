@@ -1,7 +1,9 @@
+
 .lower-lead {
+  position: relative;
   h1 {
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 450px;
     color: $white;
     word-spacing: -.25em;
@@ -9,14 +11,8 @@
     margin: 60px 0 0 30px;
     -webkit-transform: rotate(-3deg);
     }
-  h2 {
-    position: absolute;
-    top: 420px;
-    left: 580px;
-  }
 }
   .lower-lead img {
-    display: block;
     max-height: 400px;
     padding: 0;
     margin-left: 50px;
@@ -41,6 +37,7 @@
       font-size: 1.2em;
     }
     button {
+      z-index: -10;
       margin: 20px 0px;
       font-size: .9em;
       font-family: "brandon_grotesque_regularRg", Helvetica, sans-serif;
